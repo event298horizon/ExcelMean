@@ -1,0 +1,17 @@
+<mat-toolbar color="primary">
+  <span>Excel App</span>
+</mat-toolbar>
+
+<div class="container">
+  <ngx-file-drop (onFileDrop)="onFileDropped($event)" [dropZoneLabel]="'Drag and Drop Excel file'">
+  </ngx-file-drop>
+
+  <div *ngIf="data.length > 0">
+    <handsontable
+      [settings]="settings" 
+      (afterChange)="onCellEdit($event)">
+    </handsontable>
+  </div>
+  
+  <button mat-raised-button color="accent" (click)="exportExcel()">Export</button>
+</div>

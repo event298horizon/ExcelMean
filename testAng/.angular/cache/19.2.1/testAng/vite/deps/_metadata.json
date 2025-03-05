@@ -1,0 +1,43 @@
+{
+  "hash": "a11faafa",
+  "configHash": "e8623e1e",
+  "lockfileHash": "26cb699d",
+  "browserHash": "b5bb0597",
+  "optimized": {
+    "@angular/common/http": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "1232102e",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "000acda2",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "41367e98",
+      "needsInterop": false
+    },
+    "xlsx": {
+      "src": "../../../../../../node_modules/xlsx/xlsx.mjs",
+      "file": "xlsx.js",
+      "fileHash": "3a829544",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-AMQA27HR": {
+      "file": "chunk-AMQA27HR.js"
+    },
+    "chunk-7C5WVBV4": {
+      "file": "chunk-7C5WVBV4.js"
+    },
+    "chunk-WDMUDEB6": {
+      "file": "chunk-WDMUDEB6.js"
+    }
+  }
+}
