@@ -1,0 +1,11 @@
+<input type="file" (change)="onFileUpload($event)" />
+<button (click)="exportExcel()">Export</button>
+
+<hot-table
+  [data]="data"
+  [colHeaders]="colHeaders"
+  [rowHeaders]="true"
+  [manualColumnResize]="true"
+  [manualRowResize]="true"
+  [contextMenu]="true"
+></hot-table>
